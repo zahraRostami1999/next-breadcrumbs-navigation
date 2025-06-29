@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Breadcrumbs from "./components/Breadcrumbs";
 
 export default function Home() {
   return (
-    <div>
+    <div className="p-4">
       <Breadcrumbs
         iconPath="/home.svg"
         items={[
